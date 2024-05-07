@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jointgrowers</title>
+    <style type="text/css">
+      .Upper-Block ul{
+        display: flex;
+        flex: 1 1 1 1 1 1 1;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url('photos/avo2.jpg');
+        position: fixed;
+        top: 0;
+        width: 1170px;
+        margin-top: 0;
+        z-index: 100;
+      }
+      .Upper-Block ul a{
+       text-decoration-line: none;
+       list-style: none;
+       color: rgb(2, 2, 14);
+       font-size: large;
+       font-weight: bolder;
+      }
+      .Upper-Block ul a :hover{
+        text-decoration: underline;
+        color: rgb(16, 121, 115)
+      }
+      .Middle-Block {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+        background-color: rgb(15, 146, 91);
+        padding: 100px;
+        margin-top: 65px;
+        height: 500px;
+      }
+      .Overview p{ 
+        color: rgb(9, 10, 10);
+        font-size: large;
+      }
+
+      .Lower-Block{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+        background-color: rgb(61, 85, 61);
+        margin-top: 10px;
+        padding: 100px;
+      }
+      .Lower-Block p{
+        color: rgb(11, 12, 12);
+        font-size: large;
+      }
+      .Extra-Block{
+        display: grid;
+        grid-row: 1fr 1fr;
+       justify-content: center;
+       padding: 100px;
+       background-color: rgb(29, 65, 18);
+       margin-top: 10px;
+      }
+      .Extra-Block p{
+        color: rgb(6, 8, 10);
+        text-align: justify;
+        text-align: center;
+        font-size: large;
+      }
+      .Contact{
+        text-align: center;
+      }
+      img{
+        border-radius: 35px;
+      }
+      .container{
+        width: 500px;
+        height: 500px;
+        top: 30%;
+        right: 0%;
+        left: 900px;
+        position: absolute;
+        transform: translate(-50%);
+        overflow: hidden;
+        border-radius: 40px;
+      }
+      .slider{
+        width: 100%;
+        display: flex;
+        flex: 1 1 1 1;
+        justify-content: space-between;
+        animation: slide 25s infinite;
+      }
+      @keyframes slide {
+        0%{
+          transform: translateX(0);
+        }
+        25%{
+          transform: translateX(0);
+        }
+        30%{
+          transform: translateX(-100%);
+        }
+        50%{
+          transform: translateX(-100%);
+        }
+        55%{
+          transform: translateX(-200%);
+        }
+        75%{
+          transform: translateX(-200%);
+        }
+        80%{
+          transform: translateX(-300%);
+        }
+        100%{
+          transform: translateX(-300);
+        }
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(14, 11, 4);">
+    <div class="Upper-Block">
+        <ul>
+        <a href="joint.html"><img src="icons/logo6.png" height="50px"></h2></a>
+        <a href="joint.html"><li>Home</li></a>
+        <a href="About.html"><li>About</li></a>
+        <a href="product.html"><li>Products</li></a>
+        <a href="Service.html"><li>Services</li></a>
+        <a href="Partiner.html"><li>Partinerships</li></a>
+        <a href="Contact.html"><li>Contacts</li></a>
+        </ul>
+    </div>
+
+    <div class="Middle-Block">
+      <div class="Overview">
+        <h1>Overview</h1>
+        <p>Jointgrowers is an organization established to emerge on the art, culture, education, technology and environment conservation within Agriculture sector.</p>
+        <p>Through cutting-edge technology, creative thinking, and a deep-rooted love for the land, we are revolutionizing the way agriculture is approached. We believe in the power of youth to drive change and innovation, and we are committed to providing them with the tools, resources, and support they need to succeed in the agricultural industry.</p>
+        <p>Welcome to Joint Growers Limited, where innovation meets agriculture and youth empowerment is at the heart of everything we do. We are a creative and forward-thinking agriculture company dedicated to empowering young individuals to play a pivotal role in the agricultural sector. Our mission is to provide sustainable solutions to agriculture, ensuring the future of farming is in good hands.</p>
+      </div>
+      <div class="container">
+        <div class="slider">
+          <img src="photos/thirty 9.jpg" alt=""
+          width="500px">
+          <img src="photos/bg_harvest_m.jpg" alt=""
+          width="500px">
+          <img src="photos/avo2.jpg" alt=""
+          width="500px">
+          <img src="photos/avo3.jpg" alt=""
+          width="500px">
+        </div>
+      </div>
+    </div>
+
+    <div class="Lower-Block">
+      <div>
+        <img src="photos/avo3.jpg" alt=""
+        width="500px">
+      </div>
+      <div class="Mission">
+        <h1>Vision</h1>
+        <p>Our vision is to envision a thriving world through advanced ways of practicing agriculture involving arts, education, technology, and culture.</p>
+        <h1>Mission</h1>
+        <p>Our mission is to reduce the gap between low living standard and high living standard by providing sustainable solutions to agriculture, ensuring the future of farming is in good hands. </p>
+      </div>
+    </div>
+
+    <div class="Extra-Block">
+        <div class="Contact">
+          <h1>Contact Information</h1>
+          <div class="info">
+            <a href="#"><img src="icons/E-mail.png" height="40px"></a>
+            <p>Email: info@jointgrowers.co.tz</p>
+            <a href="tel: +255 763155060"><img src="icons/mobile1.jpg" height="40px"></a>
+            <p>Mobile: 0763155060</p>
+          </div>
+          <div>
+           <img src="photos/five.jpg" alt="" width="800px"> 
+          </div> 
+        </div>
+      </div>
+  </body>
+</html>
